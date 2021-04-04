@@ -1,0 +1,86 @@
+[
+  {
+    "roll": 1,
+    "name": "MD. Touhid",
+    "details": [
+      {
+        "index": 0,
+        "date": "7/21/2019",
+        "status": "P"
+      },
+      {
+        "index": 1,
+        "date": "7/22/2019",
+        "status": "P"
+      },
+      {
+        "index": 2,
+        "date": "7/23/2019",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "roll": 2,
+    "name": "Rajon Ahmed",
+    "details": [
+      {
+        "index": 0,
+        "date": "7/21/2019",
+        "status": "A"
+      },
+      {
+        "index": 1,
+        "date": "7/22/2019",
+        "status": "A"
+      },
+      {
+        "index": 2,
+        "date": "7/23/2019",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "roll": 3,
+    "name": "Siplu Miah",
+    "details": [
+      {
+        "index": 0,
+        "date": "7/21/2019",
+        "status": "P"
+      },
+      {
+        "index": 1,
+        "date": "7/22/2019",
+        "status": "A"
+      },
+      {
+        "index": 2,
+        "date": "7/23/2019",
+        "status": ""
+      }
+    ]
+  },
+  {
+    "roll": 4,
+    "name": "Rajin Saleh",
+    "details": [
+      {
+        "index": 0,
+        "date": "7/21/2019",
+        "status": "A"
+      },
+      {
+        "index": 1,
+        "date": "7/22/2019",
+        "status": "A"
+      },
+      {
+        "index": 2,
+        "date": "7/23/2019",
+        "status": ""
+      }
+    ]
+  }
+]

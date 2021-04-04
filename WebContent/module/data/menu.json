@@ -1,0 +1,77 @@
+[
+   {
+    "id": "dashboard",
+    "url": "dashboard",
+    "text": "Dashboard",
+    "class": "fas fa-tachometer-alt",
+    "hasAccess": true,
+    "child": [
+	   {
+	    "id": "institute-registration",
+	    "url": "registration.html",
+	    "text": "Institute Registration",
+	    "class": "far fa-circle",
+	    "hasAccess": true,
+	    "child": []
+	  },
+	  {
+	    "id": "institute",
+	    "url": "institute.html",
+	    "text": "Institute Registration",
+	    "class": "far fa-circle",
+	    "hasAccess": true,
+	    "child": []
+	  },
+	  {
+	    "id": "teacher",
+	    "url": "teacher.html",
+	    "text": "Teacher",
+	    "class": "far fa-circle",
+	    "hasAccess": false,
+	    "child": []
+	  },
+	  {
+	    "id": "student",
+	    "url": "student.html",
+	    "text": "Student",
+	    "class": "far fa-circle",
+	    "hasAccess": true,
+	    "child": []
+	  }
+  ]
+  },
+  {
+    "id": "admin-panel",
+    "url": "admin-panel",
+    "text": "Admin Panel",
+    "class": "fa fa-cog",
+    "hasAccess": true,
+    "child": [
+	    {
+	    "id": "student-definiton",
+	    "url": "student-definiton.html",
+	    "text": "Student Definition",
+	    "class": "fa fa-line-chart",
+	    "hasAccess": true,
+	    "child": []
+	  }
+	]
+  },
+  {
+    "id": "security",
+    "url": "security",
+    "text": "Security",
+    "class": "fa fa-cog",
+    "hasAccess": true,
+    "child": [
+	    {
+	    "id": "role-management",
+	    "url": "role-management.html",
+	    "text": "Role Management",
+	    "class": "fa fa-line-chart",
+	    "hasAccess": false,
+	    "child": []
+	  }
+	]
+  }
+]

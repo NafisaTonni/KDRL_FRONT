@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE tiles-definitions PUBLIC
+  "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" 
+  "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+
+<tiles-definitions>
+ 
+	<definition name="base.definition.login" template="/WEB-INF/views/layout/layout-login.jsp">
+		<!-- <put-attribute name="title" value="" />
+		<put-attribute name="navbar" value="" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="pageInfo" value="" />
+		<put-attribute name="pageLink" value="" />
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" /> -->
+		
+			<put-attribute name="body" value="" />
+
+		<put-list-attribute name="javascripts">
+			<add-attribute value="plugins/jquery/jquery.min.js" />
+			<add-attribute value="plugins/jquery-ui/jquery-ui.min.js" />
+			<add-attribute value="plugins/bootstrap/js/bootstrap.bundle.min.js" />
+			<add-attribute value="plugins/utill/utill.js" />
+			<add-attribute value="plugins/jquery-validation/jquery.validate.min.js" />
+			<add-attribute value="plugins/jquery-validation/additional-methods.min.js" />
+			<add-attribute value="plugins/chart.js/Chart.min.js" />
+			<add-attribute value="plugins/dropzone/dropzone.js" />
+			<add-attribute value="plugins/sparklines/sparkline.js" />
+			<add-attribute value="plugins/jqvmap/jquery.vmap.min.js" />
+			<add-attribute value="plugins/jqvmap/maps/jquery.vmap.world.js" />
+			<add-attribute value="plugins/jquery-knob/jquery.knob.min.js" />
+			<add-attribute value="plugins/moment/moment.min.js" />
+			<add-attribute value="plugins/daterangepicker/daterangepicker.js"/>
+			<add-attribute value="plugins/gijgo/js/gijgo.min.js"/>
+			<add-attribute value="plugins/inputmask/jquery.inputmask.bundle.js"/>
+			<add-attribute value="plugins/bootbox/bootbox.all.min.js" />
+			<add-attribute value="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js" />
+			<add-attribute value="plugins/summernote/summernote-bs4.min.js" />
+			<add-attribute value="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js" />
+			<add-attribute value="plugins/fastclick/fastclick.js" />
+			<add-attribute value="plugins/sweetalert2/sweetalert2.min.js" />
+			<add-attribute value="plugins/toastr/toastr.min.js" />
+			<add-attribute value="module/js/adminlte.js" />
+			<add-attribute value="module/module-util/js/url.js" />
+			<add-attribute value="module/module-util/js/service.js" />
+			<!-- <add-attribute value="module/module-util/js/form-builders.js" /> -->
+
+		</put-list-attribute>
+
+
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="plugins/fontawesome-free/css/all.min.css" />
+			<add-attribute	value="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+			<add-attribute	value="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" />
+			<add-attribute value="plugins/icheck-bootstrap/icheck-bootstrap.min.css" />
+			<add-attribute value="plugins/jqvmap/jqvmap.min.css" />
+			<add-attribute value="module/css/adminlte.min.css" />
+			<add-attribute value="plugins/dropzone/dropzone.css" />
+			<add-attribute value="plugins/sweetalert2/sweetalert2.min.css"/>
+			<add-attribute value="plugins/toastr/toastr.min.css"/>
+			<add-attribute	value="plugins/overlayScrollbars/css/OverlayScrollbars.min.css" />
+			<add-attribute value="plugins/daterangepicker/daterangepicker.css" />
+			<add-attribute value="plugins/summernote/summernote-bs4.css" />
+			<add-attribute value="plugins/jquery-ui/jquery-ui.min.css" />
+			<add-attribute value="plugins/gijgo/css/gijgo.min.css"/>
+			<add-attribute value="plugins/font/font.css" />
+			<add-attribute value="module/module-util/css/style.css" />
+			
+		</put-list-attribute>
+
+
+	</definition>
+	
+	<definition name="base.definition.home" template="/WEB-INF/views/layout/layout-home.jsp">
+		<!-- <put-attribute name="title" value="" />
+		<put-attribute name="navbar" value="" />
+		<put-attribute name="sidebar" value="" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="pageInfo" value="" />
+		<put-attribute name="pageLink" value="" />
+		-->
+		<put-attribute name="body" value="" />
+			
+		<put-attribute name="footer" value="/WEB-INF/views/layout/footer.jsp" />
+		<!--<put-attribute name="socialmedia" value="/WEB-INF/views/layout/socialmedia.jsp" />
+		<put-attribute name="header" value="/WEB-INF/views/layout/header.jsp" />
+		<put-attribute name="navbar" value="/WEB-INF/views/layout/navbar.jsp" />	
+		<put-attribute name="hero" value="/WEB-INF/views/layout/hero.jsp" />
+		 -->
+		
+	<put-attribute name="navbar" value="/WEB-INF/views/layout/navbar.jsp" />	
+		
+		
+		
+			<put-attribute name="body" value="" />
+
+		<put-list-attribute name="javascripts">
+			<add-attribute value="plugins/jquery/jquery.min.js" />
+			<add-attribute value="plugins/jquery-ui/jquery-ui.min.js" />
+			<!-- <add-attribute value="plugins/bootstrap/js/bootstrap.bundle.min.js" /> -->
+			
+			<add-attribute value="plugins/utill/utill.js" /> 
+			<add-attribute value="plugins/jquery-validation/jquery.validate.min.js" />
+			<add-attribute value="plugins/jquery-validation/additional-methods.min.js" />
+			<add-attribute value="plugins/chart.js/Chart.min.js" /> 
+			<add-attribute value="plugins/sparklines/sparkline.js" />
+			<add-attribute value="plugins/jqvmap/jquery.vmap.min.js" />
+			<add-attribute value="plugins/jqvmap/maps/jquery.vmap.world.js" />
+			<add-attribute value="plugins/jquery-knob/jquery.knob.min.js" />
+			<add-attribute value="plugins/moment/moment.min.js" /> 
+			<add-attribute value="plugins/gijgo/js/gijgo.min.js"/> 
+			<add-attribute value="plugins/bootbox/bootbox.all.min.js" />
+			<add-attribute value="plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js" />
+			<add-attribute value="plugins/summernote/summernote-bs4.min.js" />
+			<add-attribute value="plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js" />
+			<add-attribute value="plugins/fastclick/fastclick.js" />
+			<add-attribute value="plugins/sweetalert2/sweetalert2.min.js" />
+			<add-attribute value="plugins/toastr/toastr.min.js" />
+			<add-attribute value="module/js/adminlte.js" />
+			<add-attribute value="module/module-util/js/url.js" />
+			<add-attribute value="module/module-util/js/service.js" />
+			<!-- Vendor JS Files -->
+			<add-attribute value="assets/vendor/aos/aos.js" />
+			<add-attribute value="assets/vendor/bootstrap/js/bootstrap.bundle.min.js" />
+			<add-attribute value="assets/vendor/glightbox/js/glightbox.min.js" />
+			<add-attribute value="assets/vendor/isotope-layout/isotope.pkgd.min.js" />
+			<add-attribute value="assets/vendor/php-email-form/validate.js" />
+			<add-attribute value="assets/vendor/swiper/swiper-bundle.min.js" />
+		</put-list-attribute>
+
+
+		<put-list-attribute name="stylesheets">
+			<add-attribute value="plugins/fontawesome-free/css/all.min.css" />
+			<add-attribute	value="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+			<add-attribute	value="plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css" />
+			<add-attribute value="plugins/icheck-bootstrap/icheck-bootstrap.min.css" />
+			<add-attribute value="plugins/jqvmap/jqvmap.min.css" />
+			<add-attribute value="module/css/adminlte.min.css" /> 
+			<add-attribute value="plugins/sweetalert2/sweetalert2.min.css"/>
+			<add-attribute value="plugins/toastr/toastr.min.css"/>
+			<add-attribute	value="plugins/overlayScrollbars/css/OverlayScrollbars.min.css" /> 
+			<add-attribute value="plugins/summernote/summernote-bs4.css" />
+			<add-attribute value="plugins/jquery-ui/jquery-ui.min.css" />
+			<add-attribute value="plugins/gijgo/css/gijgo.min.css"/>
+			<add-attribute value="plugins/font/font.css" />
+			<add-attribute value="module/module-util/css/style.css" />
+			<!-- Vendor CSS Files -->
+			<add-attribute value="assets/vendor/animate.css/animate.min.css" />
+			<add-attribute value="assets/vendor/aos/aos.css" />
+			<add-attribute value="assets/vendor/bootstrap/css/bootstrap.min.css" />
+			<add-attribute value="assets/vendor/bootstrap-icons/bootstrap-icons.css" />
+			<add-attribute value="assets/vendor/boxicons/css/boxicons.min.css" />
+			<add-attribute value="assets/vendor/glightbox/css/glightbox.min.css" />
+			<add-attribute value="assets/vendor/remixicon/remixicon.css" />
+			<add-attribute value="assets/vendor/swiper/swiper-bundle.min.css" />
+		</put-list-attribute>
+
+
+	</definition>
+	 
+
+
+	<!--  KDRL WEB home  start  -->
+	
+	<definition name="home" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Home" />
+		<put-attribute name="pageInfo" value="home" />
+		
+		<put-attribute name="body"	value="/WEB-INF/views/pages/module-home/home.jsp" />
+		<put-list-attribute name="stylesheets" inherit="true">
+	   <!-- <add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" /> -->
+			<add-attribute value="module/module-home/css/chatbot.css" />
+			<add-attribute value="module/module-home/css/counter.css" />
+			<add-attribute value="module/module-home/css/socialmedia.css" />
+			<add-attribute value="module/module-home/css/style.css" />	
+		</put-list-attribute>
+		
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" />
+			<add-attribute value="module/module-home/js/main.js" /> 
+		</put-list-attribute>
+	</definition>
+	<!-- home end -->
+	
+	<!-- KDRL Web gallery start  -->
+	
+	<definition name="gallery" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Gallery" />
+		<put-attribute name="pageInfo" value="gallery" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-gallery/gallery.jsp"/> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />  
+			<add-attribute value="module/module-gallery/css/socialmedia.css" />
+			<add-attribute value="module/module-gallery/css/style.css" />
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" />
+			<add-attribute value="module/module-gallery/js/main.js" />   
+		</put-list-attribute>
+	</definition>
+	<!-- gallery end -->
+	
+	<!--KDRL Web buyLoad start  -->
+	<definition name="buyLoad" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Buy Load" />
+		<put-attribute name="pageInfo" value="buyLoad" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-buyLoad/buyLoad.jsp"/> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />  
+			<add-attribute value="module/module-buyLoad/css/socialmedia.css" />
+			<add-attribute value="module/module-buyLoad/css/style.css" />
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" />
+			<add-attribute value="module/module-buyLoad/js/main.js" />    
+		</put-list-attribute>
+	</definition>
+	
+	<!-- buyLoad end -->
+	
+	<!-- KDRL Web product start  -->
+	
+	 <definition name="product" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Product" />
+		<put-attribute name="pageInfo" value="product" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-product/product.jsp"/> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />  
+			<add-attribute value="module/module-product/css/socialmedia.css" />
+			<add-attribute value="module/module-product/css/style.css" />
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" />
+			<add-attribute value="module/module-product/js/main.js" />  
+		</put-list-attribute>
+	</definition>
+	<!-- product end -->
+	
+	<!-- KDRL Web  locator start  -->
+	
+	<definition name="locator" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Locator" />
+		<put-attribute name="pageInfo" value="locator" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-locator/locator.jsp" /> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />
+			<add-attribute value="module/module-locator/css/socialmedia.css" />
+			<add-attribute value="module/module-locator/css/style.css" />
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" /> 	
+			<add-attribute value="module/module-locator/js/main.js" />  
+		</put-list-attribute>
+	</definition>
+	<!-- locator end -->
+	
+	<!-- KDRL Web contact start  -->
+	
+	 <definition name="contact" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Contact " />
+		<put-attribute name="pageInfo" value="contact" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-contact/contact.jsp" /> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />
+			<add-attribute value="module/module-contact/css/socialmedia.css" />
+			<add-attribute value="module/module-contact/css/style.css" />	
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" /> 	
+			<add-attribute value="module/module-contact/js/main.js" /> 
+		</put-list-attribute>
+	</definition> 
+	<!-- contact end -->
+	
+	<!-- KDRL Web FAQ start  -->
+	
+	 <definition name="FAQ" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | FAQ" />
+		<put-attribute name="pageInfo" value="FAQ" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-FAQ/FAQ.jsp"/> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />  
+			<add-attribute value="module/module-FAQ/css/socialmedia.css" />
+			<add-attribute value="module/module-FAQ/css/style.css" />	
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" />
+			<add-attribute value="module/module-FAQ/js/main.js" />  
+		</put-list-attribute>
+	</definition>
+	<!-- FAQ end -->
+	
+	<!-- KDRL Web  companyProfile start  -->
+	
+	<definition name="companyProfile" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Company Profile" />
+		<put-attribute name="pageInfo" value="companyProfile" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-companyProfile/companyProfile.jsp" /> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />
+			<add-attribute value="module/module-companyProfile/css/socialmedia.css" />
+			<add-attribute value="module/module-companyProfile/css/style.css" />	
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" /> 	
+			<add-attribute value="module/module-companyProfile/js/main.js" />   
+		</put-list-attribute>
+	</definition>
+	<!-- companyProfile end -->
+	
+	<!-- KDRL Web  boardOfDirector start  -->
+	
+	 <definition name="boardOfDirector" extends="base.definition.home">
+		<put-attribute name="title" value="King Digital Recharge Limited | Board Of Director " />
+		<put-attribute name="pageInfo" value="boardOfDirector" />
+		
+		<put-attribute name="body" value="/WEB-INF/views/pages/module-boardOfDirector/boardOfDirector.jsp" /> 
+		<put-list-attribute name="stylesheets" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid.css" />
+			<add-attribute value="plugins/ag-grid/ag-theme-balham.css" />
+			<add-attribute value="module/module-boardOfDirector/css/socialmedia.css" />
+			<add-attribute value="module/module-boardOfDirector/css/style.css" />		
+		</put-list-attribute>
+
+		<put-list-attribute name="javascripts" inherit="true">
+			<add-attribute value="plugins/ag-grid/ag-grid-community.min.noStyle.js" /> 	
+			<add-attribute value="module/module-boardOfDirector/js/main.js" />
+		</put-list-attribute>
+	</definition> 
+	<!-- boardOfDirector end -->
+	
+	
+	</tiles-definitions>
